@@ -11,21 +11,21 @@ public class main {
     public static void main(String[] args) {
         System.out.println("Digite o valor dos 3 lados do primeiro triângulo:");
         Triangle triangleX = new Triangle();
-        triangleX.ladoA = sc.nextDouble();
-        triangleX.ladoB = sc.nextDouble();
-        triangleX.ladoC = sc.nextDouble();
+        triangleX.setLadoA(sc.nextDouble());
+        triangleX.setLadoB(sc.nextDouble());
+        triangleX.setLadoC(sc.nextDouble());
 
         triangleX.calculaAreaDoTriangulo();
 
         System.out.println("Digite o valor dos 3 lados do segundo triângulo:");
         Triangle triangleY = new Triangle();
-        triangleY.ladoA = sc.nextDouble();
-        triangleY.ladoB = sc.nextDouble();
-        triangleY.ladoC = sc.nextDouble();
+        triangleY.setLadoA(sc.nextDouble());
+        triangleY.setLadoB(sc.nextDouble());
+        triangleY.setLadoC(sc.nextDouble());
 
         triangleY.calculaAreaDoTriangulo();
 
-        if(triangleX.p > triangleY.p) {
+        if(triangleX.getP() > triangleY.getP()) {
             System.out.println("A maior área é a do triângulo X");
         } else  System.out.println("A maior área é a do triângulo Y");
         ;

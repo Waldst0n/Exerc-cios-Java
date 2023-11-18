@@ -10,14 +10,13 @@ public class main {
         Product product1 = new Product();
 
 
-        System.out.println();
 
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
-        product1.name = scanner.nextLine();
+        product1.setName(scanner.nextLine());
 
         System.out.print("Price: ");
-        product1.price = scanner.nextDouble();
+        product1.setPrice(scanner.nextDouble());
 
         System.out.print("Quantity in stock:");
         product1.addProducts(scanner.nextInt());
