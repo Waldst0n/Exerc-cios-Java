@@ -1,8 +1,8 @@
-package numerosnegativos;
+package vetores.numerosnegativos;
 
 import java.util.Scanner;
 
-public class Main {
+public class NumerosNegativos {
 
 	public static void main(String[] args) {
 
