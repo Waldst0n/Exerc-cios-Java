@@ -1,4 +1,6 @@
-package composicao2;
+package composicao2.model;
+
+import composicao2.model.Comment;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

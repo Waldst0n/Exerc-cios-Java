@@ -1,8 +1,10 @@
 package composicao2;
 
+import composicao2.model.Comment;
+import composicao2.model.Post;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) throws ParseException {

@@ -1,4 +1,4 @@
-package composicao2;
+package composicao2.model;
 
 public class Comment {
     private String text;
