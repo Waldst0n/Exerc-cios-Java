@@ -1,4 +1,4 @@
-package calculoCircunferencia;
+package calculo_circunferencia;
 
 import java.util.Scanner;
 
